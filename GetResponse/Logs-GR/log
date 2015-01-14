@@ -1,0 +1,4 @@
+2015-01-13 16:47:59,150 [http-bio-8080-exec-5] INFO  (GetResponseLog.java:127) - My first log
+  2015-01-13 16:47:59,150 [http-bio-8080-exec-5] INFO  (GetResponseLog.java:127) - Hi How r u?
+  2015-01-13 16:47:59,150 [http-bio-8080-exec-5] WARN  (GetResponseLog.java:137) - Error
+  

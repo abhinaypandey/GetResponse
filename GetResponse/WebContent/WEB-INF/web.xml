@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:javaee="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd" id="WebApp_ID" version="2.4">
+  <welcome-file-list>
+    <welcome-file>Register.jsp</welcome-file>
+  </welcome-file-list>
+  <context-param>
+    <param-name>contextConfigLocation</param-name>
+    <param-value>/WEB-INF/classes/persistence.xml </param-value>
+  </context-param>
+  <servlet>
+    <display-name>GetResponseDelegate</display-name>
+    <servlet-name>GetResponseDelegate</servlet-name>
+    <servlet-class>com.amgen.getResponse.serviceDelegate.GetResponseDelegate</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetResponseDelegate</servlet-name>
+    <url-pattern>/GetResponseDelegate</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>UserAuthentication</display-name>
+    <servlet-name>UserAuthentication</servlet-name>
+    <servlet-class>com.amgen.getResponse.servlet.UserAuthentication</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserAuthentication</servlet-name>
+    <url-pattern>/UserAuthentication</url-pattern>
+  </servlet-mapping>
+</web-app>
