@@ -25,7 +25,7 @@
                     </tr>
                     <tr>
                         <td>Phone</td>
-                        <td><input type="integer" name="PHONE" value="" /></td>
+                        <td><input type="text" name="PHONE" value="" /></td>
                     </tr>
                     <tr>
                         <td>User Name</td>

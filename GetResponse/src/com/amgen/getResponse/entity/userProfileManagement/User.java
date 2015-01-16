@@ -41,7 +41,7 @@ private int id;
 	private String email;
 	
 	@Column(name="PHONE")
-	private int phone;
+	private long phone;
 
 	
 
@@ -100,11 +100,11 @@ private int id;
 		this.email = email;
 	}
 
-	public int getPhone() {
+	public long getPhone() {
 		return phone;
 	}
 
-	public void setPhone(int phone) {
+	public void setPhone(long phone) {
 		
 		this.phone = phone;
 	}

@@ -58,7 +58,7 @@ public class GetResponseDelegate extends HttpServlet {
 		user.setEmail(request.getParameter("EMAIL"));
 		user.setUsername(request.getParameter("USERNAME"));
 		user.setPassword(request.getParameter("PASSWORD"));
-		user.setPhone(Integer.parseInt(request.getParameter("PHONE")));
+		user.setPhone(Long.parseLong(request.getParameter("PHONE")));
 		UtilityService.addUser(user);
 		request.getRequestDispatcher("/success.jsp").forward(request, response);
 	}
