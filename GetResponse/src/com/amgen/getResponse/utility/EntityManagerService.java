@@ -3,16 +3,13 @@ package com.amgen.getResponse.utility;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.HashMap;
-import java.util.Locale;
 import java.util.Map;
 import java.util.ResourceBundle;
 import java.util.logging.FileHandler;
-//import java.util.logging.Logger;
-import java.util.logging.SimpleFormatter;
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
-import org.apache.log4j.Logger;
+//import java.util.logging.Logger;
 
 public class EntityManagerService {
 	/**
@@ -30,14 +27,13 @@ public class EntityManagerService {
 	 */
 	//private static final String FILENAME="Resources/db";
 	public static EntityManager getEntityManager() throws FileNotFoundException, IOException {
+		
 		GetResponseLog log = GetResponseLoggerFactory.getLog("GetResponseLog");
 		//GetResponseLog log = GetResponseLoggerFactory.getLog("GetResponseLog");
 		
 		//if( log.isDebugEnabled() ){
 		   log.debug("getEntityManager().. ");
 		//}
-
-		 
 		/*
 		Properties props = new Properties();
 		props.load(new FileInputStream("log4j.properties"));
@@ -60,19 +56,17 @@ public class EntityManagerService {
 
 			//log.addHandler(fh);
 			//SimpleFormatter formatter = new SimpleFormatter();  
-			//fh.setFormatter(formatter);  
+			//fh.setFormatter(formatter); 
+		
 			log.info("My first log");  
 			log.info("hello all");
 			log.info("hello alllll");
-			log.debug("kllall");
 		} catch (SecurityException e) {  
 			e.printStackTrace();  
 		} //catch (IOException e) {  
 			//e.printStackTrace();  
 		//}  
 
-		log.info("Hi How r u?"); 
-		log.warn("Error");
 
 
 		Map<String, String> prop = new HashMap<String, String>();
