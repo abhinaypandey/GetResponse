@@ -63,8 +63,8 @@ public class EntityManagerService {
 			//SimpleFormatter formatter = new SimpleFormatter();  
 			//fh.setFormatter(formatter);  
 			log.info("My first log");  
-			log.info("hello alll");
-log.debug("kllall");
+			log.info("hello all");
+			log.debug("kllall");
 		} catch (SecurityException e) {  
 			e.printStackTrace();  
 		} //catch (IOException e) {  
