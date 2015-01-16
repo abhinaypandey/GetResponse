@@ -4,7 +4,7 @@
 
 <html>
 <body >
-   <form method="get" action="${pageContext.request.contextPath}/UserAuthentication">
+   <form method="post" action="${pageContext.request.contextPath}/UserAuthentication">
       <table border="0">
       <tr>
       <td>Username</td>
