@@ -64,6 +64,7 @@ public class EntityManagerService {
 			//fh.setFormatter(formatter);  
 			log.info("My first log");  
 			log.info("hello all");
+			log.info("hello alllll");
 			log.debug("kllall");
 		} catch (SecurityException e) {  
 			e.printStackTrace();  
