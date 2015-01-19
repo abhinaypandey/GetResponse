@@ -16,6 +16,7 @@ public class GetResponseLog {
 	public static final int DEBUG = 1;
 	private Logger log;
 	private FileHandler fileHandler;
+	
 
 	public GetResponseLog (String name)
 	{
