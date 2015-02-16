@@ -1,0 +1,65 @@
+2015-02-03 15:30:27,230 [http-bio-8080-exec-31] INFO  (GetResponseLog.java:127) - My first log
+  2015-02-03 15:30:27,230 [http-bio-8080-exec-31] INFO  (GetResponseLog.java:127) - hello all
+  2015-02-03 15:30:27,230 [http-bio-8080-exec-31] INFO  (GetResponseLog.java:127) - hello alllll
+  2015-02-03 15:30:27,324 [http-bio-8080-exec-31] INFO  (Version.java:15) - Hibernate Annotations 3.4.0.GA
+  2015-02-03 15:30:27,340 [http-bio-8080-exec-31] INFO  (Environment.java:543) - Hibernate 3.3.1.GA
+  2015-02-03 15:30:27,340 [http-bio-8080-exec-31] INFO  (Environment.java:576) - hibernate.properties not found
+  2015-02-03 15:30:27,340 [http-bio-8080-exec-31] INFO  (Environment.java:709) - Bytecode provider name : javassist
+  2015-02-03 15:30:27,355 [http-bio-8080-exec-31] INFO  (Environment.java:627) - using JDK 1.4 java.sql.Timestamp handling
+  2015-02-03 15:30:27,433 [http-bio-8080-exec-31] INFO  (Version.java:16) - Hibernate EntityManager 3.4.0.GA
+  2015-02-03 15:30:27,936 [http-bio-8080-exec-31] INFO  (AnnotationBinder.java:419) - Binding entity from annotated class: com.amgen.getResponse.entity.userProfileManagement.User
+  2015-02-03 15:30:27,967 [http-bio-8080-exec-31] INFO  (EntityBinder.java:422) - Bind entity com.amgen.getResponse.entity.userProfileManagement.User on table USER
+  2015-02-03 15:30:27,998 [http-bio-8080-exec-31] INFO  (AnnotationBinder.java:419) - Binding entity from annotated class: com.amgen.getResponse.entity.campaign.Channel
+  2015-02-03 15:30:28,014 [http-bio-8080-exec-31] INFO  (EntityBinder.java:422) - Bind entity com.amgen.getResponse.entity.campaign.Channel on table USER
+  2015-02-03 15:30:28,014 [http-bio-8080-exec-31] INFO  (AnnotationConfiguration.java:369) - Hibernate Validator not found: ignoring
+  2015-02-03 15:30:28,029 [http-bio-8080-exec-31] INFO  (HibernateSearchEventListenerRegister.java:53) - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+  2015-02-03 15:30:28,076 [http-bio-8080-exec-31] INFO  (DriverManagerConnectionProvider.java:64) - Using Hibernate built-in connection pool (not for production use!)
+  2015-02-03 15:30:28,076 [http-bio-8080-exec-31] INFO  (DriverManagerConnectionProvider.java:65) - Hibernate connection pool size: 20
+  2015-02-03 15:30:28,076 [http-bio-8080-exec-31] INFO  (DriverManagerConnectionProvider.java:68) - autocommit mode: true
+  2015-02-03 15:30:28,092 [http-bio-8080-exec-31] INFO  (DriverManagerConnectionProvider.java:103) - using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/web
+  2015-02-03 15:30:28,092 [http-bio-8080-exec-31] INFO  (DriverManagerConnectionProvider.java:109) - connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+  2015-02-03 15:30:28,279 [http-bio-8080-exec-31] INFO  (SettingsFactory.java:116) - RDBMS: MySQL, version: 5.6.22-log
+  2015-02-03 15:30:28,279 [http-bio-8080-exec-31] INFO  (SettingsFactory.java:117) - JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.1.23 ( Revision: ${bzr.revision-id} )
+  2015-02-03 15:30:28,311 [http-bio-8080-exec-31] INFO  (Dialect.java:175) - Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+  2015-02-03 15:30:28,311 [http-bio-8080-exec-31] INFO  (TransactionFactoryFactory.java:62) - Transaction strategy: org.hibernate.transaction.JDBCTransactionFactory
+  2015-02-03 15:30:28,311 [http-bio-8080-exec-31] INFO  (TransactionManagerLookupFactory.java:80) - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+  2015-02-03 15:30:28,311 [http-bio-8080-exec-31] INFO  (SettingsFactory.java:170) - Automatic flush during beforeCompletion(): disabled
+  2015-02-03 15:30:28,311 [http-bio-8080-exec-31] INFO  (SettingsFactory.java:174) - Automatic session close at end of transaction: disabled
+  2015-02-03 15:30:28,311 [http-bio-8080-exec-31] INFO  (SettingsFactory.java:181) - JDBC batch size: 15
+  2015-02-03 15:30:28,311 [http-bio-8080-exec-31] INFO  (SettingsFactory.java:184) - JDBC batch updates for versioned data: disabled
+  2015-02-03 15:30:28,311 [http-bio-8080-exec-31] INFO  (SettingsFactory.java:189) - Scrollable result sets: enabled
+  2015-02-03 15:30:28,311 [http-bio-8080-exec-31] INFO  (SettingsFactory.java:197) - JDBC3 getGeneratedKeys(): enabled
+  2015-02-03 15:30:28,311 [http-bio-8080-exec-31] INFO  (SettingsFactory.java:205) - Connection release mode: auto
+  2015-02-03 15:30:28,311 [http-bio-8080-exec-31] INFO  (SettingsFactory.java:229) - Maximum outer join fetch depth: 3
+  2015-02-03 15:30:28,311 [http-bio-8080-exec-31] INFO  (SettingsFactory.java:232) - Default batch fetch size: 1
+  2015-02-03 15:30:28,311 [http-bio-8080-exec-31] INFO  (SettingsFactory.java:236) - Generate SQL with comments: disabled
+  2015-02-03 15:30:28,311 [http-bio-8080-exec-31] INFO  (SettingsFactory.java:240) - Order SQL updates by primary key: disabled
+  2015-02-03 15:30:28,311 [http-bio-8080-exec-31] INFO  (SettingsFactory.java:244) - Order SQL inserts for batching: disabled
+  2015-02-03 15:30:28,311 [http-bio-8080-exec-31] INFO  (SettingsFactory.java:420) - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+  2015-02-03 15:30:28,326 [http-bio-8080-exec-31] INFO  (ASTQueryTranslatorFactory.java:47) - Using ASTQueryTranslatorFactory
+  2015-02-03 15:30:28,326 [http-bio-8080-exec-31] INFO  (SettingsFactory.java:252) - Query language substitutions: {}
+  2015-02-03 15:30:28,326 [http-bio-8080-exec-31] INFO  (SettingsFactory.java:257) - JPA-QL strict compliance: enabled
+  2015-02-03 15:30:28,326 [http-bio-8080-exec-31] INFO  (SettingsFactory.java:262) - Second-level cache: enabled
+  2015-02-03 15:30:28,326 [http-bio-8080-exec-31] INFO  (SettingsFactory.java:266) - Query cache: disabled
+  2015-02-03 15:30:28,326 [http-bio-8080-exec-31] INFO  (SettingsFactory.java:405) - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+  2015-02-03 15:30:28,326 [http-bio-8080-exec-31] INFO  (SettingsFactory.java:276) - Optimize cache for minimal puts: disabled
+  2015-02-03 15:30:28,326 [http-bio-8080-exec-31] INFO  (SettingsFactory.java:285) - Structured second-level cache entries: disabled
+  2015-02-03 15:30:28,326 [http-bio-8080-exec-31] INFO  (SettingsFactory.java:305) - Echoing all SQL to stdout
+  2015-02-03 15:30:28,326 [http-bio-8080-exec-31] INFO  (SettingsFactory.java:314) - Statistics: disabled
+  2015-02-03 15:30:28,326 [http-bio-8080-exec-31] INFO  (SettingsFactory.java:318) - Deleted entity synthetic identifier rollback: disabled
+  2015-02-03 15:30:28,326 [http-bio-8080-exec-31] INFO  (SettingsFactory.java:333) - Default entity-mode: pojo
+  2015-02-03 15:30:28,326 [http-bio-8080-exec-31] INFO  (SettingsFactory.java:337) - Named query checking : enabled
+  2015-02-03 15:30:28,404 [http-bio-8080-exec-31] INFO  (SessionFactoryImpl.java:187) - building session factory
+  2015-02-03 15:30:28,545 [http-bio-8080-exec-31] INFO  (SessionFactoryObjectFactory.java:105) - Not binding factory to JNDI, no JNDI name configured
+  2015-02-03 15:30:28,592 [http-bio-8080-exec-31] WARN  (AbstractEntityManagerImpl.java:551) - Calling joinTransaction() on a non JTA EntityManager
+  2015-02-03 15:30:28,618 [http-bio-8080-exec-31] WARN  (JDBCExceptionReporter.java:100) - SQL Error: 1264, SQLState: 22001
+  2015-02-03 15:30:28,618 [http-bio-8080-exec-31] ERROR (JDBCExceptionReporter.java:101) - Data truncation: Out of range value for column 'PHONE' at row 1
+  2015-02-03 15:42:28,718 [http-bio-8080-exec-32] INFO  (GetResponseLog.java:127) - My first log
+  2015-02-03 15:42:28,733 [http-bio-8080-exec-32] INFO  (GetResponseLog.java:127) - hello all
+  2015-02-03 15:42:28,733 [http-bio-8080-exec-32] INFO  (GetResponseLog.java:127) - hello alllll
+  2015-02-03 15:42:28,734 [http-bio-8080-exec-32] WARN  (AbstractEntityManagerImpl.java:551) - Calling joinTransaction() on a non JTA EntityManager
+  2015-02-03 16:05:54,142 [http-bio-8080-exec-27] INFO  (GetResponseLog.java:127) - My first log
+  2015-02-03 16:05:54,152 [http-bio-8080-exec-27] INFO  (GetResponseLog.java:127) - hello all
+  2015-02-03 16:05:54,152 [http-bio-8080-exec-27] INFO  (GetResponseLog.java:127) - hello alllll
+  2015-02-03 16:05:54,153 [http-bio-8080-exec-27] WARN  (AbstractEntityManagerImpl.java:551) - Calling joinTransaction() on a non JTA EntityManager
+  
