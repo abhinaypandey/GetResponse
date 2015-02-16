@@ -11,12 +11,10 @@ public class UtilityService {
 	public static boolean addUser(User user) throws FileNotFoundException, IOException {
 	UserDao DAO = new UserDaoImpl();
 			DAO.addUser(user);
-		return false;
-		
-			
-		}
+		return false;	
+		}	
 		public static boolean checkUser(User user)
-		{
+		{	
 			
 			return false;
 			

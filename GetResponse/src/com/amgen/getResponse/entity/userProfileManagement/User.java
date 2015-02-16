@@ -1,5 +1,7 @@
 package com.amgen.getResponse.entity.userProfileManagement;
 
+import java.io.Serializable;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -16,14 +18,13 @@ import com.amgen.getResponse.utility.GetResponseLoggerFactory;
 @Entity
 @Table(name="USER")
 
-public class User {
+public class User implements Serializable {
 	
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO, generator="USER_AUTO")
 	@SequenceGenerator(name="USER_AUTO", sequenceName="USER_AUTO", allocationSize=1)
-	@Column(name = "USER_ID")
-	
-private int id;
+	@Column(name = "USER_ID")	
+	private int id;
 	
 	@Column(name="First_Name")
     private String first_name;

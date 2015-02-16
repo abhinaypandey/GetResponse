@@ -6,7 +6,6 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-
 import com.amgen.getResponse.dao.UserDaoImpl;
 import com.amgen.getResponse.entity.userProfileManagement.User;
 import com.amgen.getResponse.service.BusinessService;

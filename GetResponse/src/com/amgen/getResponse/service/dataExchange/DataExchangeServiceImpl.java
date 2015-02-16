@@ -9,7 +9,28 @@
  */
 package com.amgen.getResponse.service.dataExchange;
 
+import java.io.BufferedOutputStream;
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.util.List;
+import java.util.ResourceBundle;
+
+import javassist.bytecode.Descriptor.Iterator;
+
+import javax.management.Query;
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.Persistence;
+
+import com.amgen.getResponse.entity.userProfileManagement.User;
 import com.amgen.getResponse.service.BusinessService;
+import com.amgen.getResponse.utility.EntityManagerService;
 
 public class DataExchangeServiceImpl implements DataExchangeService {
 
@@ -21,13 +42,54 @@ public class DataExchangeServiceImpl implements DataExchangeService {
 
 	@Override
 	public void service(String str) {
-		// TODO Auto-generated method stub
+		// TODO Auto-generated method stub 
 		
 	}
 
 	@Override
 	public void service(String str, Object obj) {
 		// TODO Auto-generated method stub
+		
+	}
+	
+	public static void main(String arg[]){
+		try {
+			File file=new File("/Temp/temp.txt");
+//			FileOutputStream f=new FileOutputStream(file);
+			PrintWriter pw=new PrintWriter(new BufferedWriter(new FileWriter(file,true)));
+			
+			EntityManager em=EntityManagerService.getEntityManager();
+			em.getTransaction().begin();
+			javax.persistence.Query q= em.createQuery("Select o from User o");
+			List<User> users=q.getResultList();
+			java.util.Iterator<User> iterator=users.iterator();
+			
+			ResourceBundle rc=ResourceBundle.getBundle("properties.delimiter");
+			String delimiter=rc.getString("delimiter");
+			while(iterator.hasNext()){
+				User user=iterator.next();
+				pw.print(user.getId()); pw.print(delimiter);
+				pw.print(user.getUsername());pw.print(delimiter);
+				pw.print(user.getFirst_name());pw.print(delimiter);
+				pw.print(user.getLast_name());pw.print(delimiter);
+				pw.print(user.getEmail());pw.print(delimiter);
+				pw.print(user.getPhone());
+				pw.println("");
+				
+				pw.flush();
+				
+			}
+			
+			
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		
 		
 	}
 
