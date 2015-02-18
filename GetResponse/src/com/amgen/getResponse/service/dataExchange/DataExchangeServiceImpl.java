@@ -84,10 +84,14 @@ public class DataExchangeServiceImpl implements DataExchangeService {
 				
 			}
 			
+			/* Calling EncryptionService to handle data encrytpion and decryption */
+			
 			EncryptionService test=new EncryptionService(filePath);
 			test.genKeyPair();
 			test.encrypt();
 			test.decrypt();
+			
+			System.out.println("Data encrypted successfully");
 			
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
