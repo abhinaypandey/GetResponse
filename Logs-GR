@@ -1,213 +1,54 @@
-2015-02-16 10:44:47,565 [main] INFO  (GetResponseLog.java:127) - My first log
-  2015-02-16 10:44:47,569 [main] INFO  (GetResponseLog.java:127) - hello all
-  2015-02-16 10:44:47,569 [main] INFO  (GetResponseLog.java:127) - hello alllll
-  2015-02-16 10:44:47,650 [main] INFO  (Version.java:15) - Hibernate Annotations 3.4.0.GA
-  2015-02-16 10:44:47,661 [main] INFO  (Environment.java:543) - Hibernate 3.3.1.GA
-  2015-02-16 10:44:47,663 [main] INFO  (Environment.java:576) - hibernate.properties not found
-  2015-02-16 10:44:47,665 [main] INFO  (Environment.java:709) - Bytecode provider name : javassist
-  2015-02-16 10:44:47,682 [main] INFO  (Environment.java:627) - using JDK 1.4 java.sql.Timestamp handling
-  2015-02-16 10:44:47,742 [main] INFO  (Version.java:16) - Hibernate EntityManager 3.4.0.GA
-  2015-02-16 10:44:48,230 [main] INFO  (AnnotationBinder.java:419) - Binding entity from annotated class: com.amgen.getResponse.entity.userProfileManagement.User
-  2015-02-16 10:44:48,255 [main] INFO  (EntityBinder.java:422) - Bind entity com.amgen.getResponse.entity.userProfileManagement.User on table USER
-  2015-02-16 10:44:48,316 [main] INFO  (AnnotationBinder.java:419) - Binding entity from annotated class: com.amgen.getResponse.entity.campaign.Channel
-  2015-02-16 10:44:48,316 [main] INFO  (EntityBinder.java:422) - Bind entity com.amgen.getResponse.entity.campaign.Channel on table USER
-  2015-02-16 10:44:48,319 [main] INFO  (AnnotationConfiguration.java:369) - Hibernate Validator not found: ignoring
-  2015-02-16 10:44:48,430 [main] INFO  (HibernateSearchEventListenerRegister.java:53) - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
-  2015-02-16 10:44:48,479 [main] INFO  (DriverManagerConnectionProvider.java:64) - Using Hibernate built-in connection pool (not for production use!)
-  2015-02-16 10:44:48,480 [main] INFO  (DriverManagerConnectionProvider.java:65) - Hibernate connection pool size: 20
-  2015-02-16 10:44:48,480 [main] INFO  (DriverManagerConnectionProvider.java:68) - autocommit mode: true
-  2015-02-16 10:44:48,678 [main] INFO  (DriverManagerConnectionProvider.java:103) - using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/web
-  2015-02-16 10:44:48,678 [main] INFO  (DriverManagerConnectionProvider.java:109) - connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
-  2015-02-16 10:44:49,069 [main] INFO  (SettingsFactory.java:116) - RDBMS: MySQL, version: 5.6.22-log
-  2015-02-16 10:44:49,070 [main] INFO  (SettingsFactory.java:117) - JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.1.23 ( Revision: ${bzr.revision-id} )
-  2015-02-16 10:44:49,081 [main] INFO  (Dialect.java:175) - Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
-  2015-02-16 10:44:49,084 [main] INFO  (TransactionFactoryFactory.java:62) - Transaction strategy: org.hibernate.transaction.JDBCTransactionFactory
-  2015-02-16 10:44:49,086 [main] INFO  (TransactionManagerLookupFactory.java:80) - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
-  2015-02-16 10:44:49,086 [main] INFO  (SettingsFactory.java:170) - Automatic flush during beforeCompletion(): disabled
-  2015-02-16 10:44:49,086 [main] INFO  (SettingsFactory.java:174) - Automatic session close at end of transaction: disabled
-  2015-02-16 10:44:49,086 [main] INFO  (SettingsFactory.java:181) - JDBC batch size: 15
-  2015-02-16 10:44:49,086 [main] INFO  (SettingsFactory.java:184) - JDBC batch updates for versioned data: disabled
-  2015-02-16 10:44:49,087 [main] INFO  (SettingsFactory.java:189) - Scrollable result sets: enabled
-  2015-02-16 10:44:49,087 [main] INFO  (SettingsFactory.java:197) - JDBC3 getGeneratedKeys(): enabled
-  2015-02-16 10:44:49,088 [main] INFO  (SettingsFactory.java:205) - Connection release mode: auto
-  2015-02-16 10:44:49,088 [main] INFO  (SettingsFactory.java:229) - Maximum outer join fetch depth: 3
-  2015-02-16 10:44:49,088 [main] INFO  (SettingsFactory.java:232) - Default batch fetch size: 1
-  2015-02-16 10:44:49,088 [main] INFO  (SettingsFactory.java:236) - Generate SQL with comments: disabled
-  2015-02-16 10:44:49,089 [main] INFO  (SettingsFactory.java:240) - Order SQL updates by primary key: disabled
-  2015-02-16 10:44:49,089 [main] INFO  (SettingsFactory.java:244) - Order SQL inserts for batching: disabled
-  2015-02-16 10:44:49,089 [main] INFO  (SettingsFactory.java:420) - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
-  2015-02-16 10:44:49,091 [main] INFO  (ASTQueryTranslatorFactory.java:47) - Using ASTQueryTranslatorFactory
-  2015-02-16 10:44:49,091 [main] INFO  (SettingsFactory.java:252) - Query language substitutions: {}
-  2015-02-16 10:44:49,091 [main] INFO  (SettingsFactory.java:257) - JPA-QL strict compliance: enabled
-  2015-02-16 10:44:49,091 [main] INFO  (SettingsFactory.java:262) - Second-level cache: enabled
-  2015-02-16 10:44:49,092 [main] INFO  (SettingsFactory.java:266) - Query cache: disabled
-  2015-02-16 10:44:49,092 [main] INFO  (SettingsFactory.java:405) - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
-  2015-02-16 10:44:49,092 [main] INFO  (SettingsFactory.java:276) - Optimize cache for minimal puts: disabled
-  2015-02-16 10:44:49,092 [main] INFO  (SettingsFactory.java:285) - Structured second-level cache entries: disabled
-  2015-02-16 10:44:49,098 [main] INFO  (SettingsFactory.java:305) - Echoing all SQL to stdout
-  2015-02-16 10:44:49,099 [main] INFO  (SettingsFactory.java:314) - Statistics: disabled
-  2015-02-16 10:44:49,099 [main] INFO  (SettingsFactory.java:318) - Deleted entity synthetic identifier rollback: disabled
-  2015-02-16 10:44:49,100 [main] INFO  (SettingsFactory.java:333) - Default entity-mode: pojo
-  2015-02-16 10:44:49,100 [main] INFO  (SettingsFactory.java:337) - Named query checking : enabled
-  2015-02-16 10:44:49,206 [main] INFO  (SessionFactoryImpl.java:187) - building session factory
-  2015-02-16 10:44:49,319 [main] INFO  (SessionFactoryObjectFactory.java:105) - Not binding factory to JNDI, no JNDI name configured
-  2015-02-16 10:45:19,041 [main] INFO  (GetResponseLog.java:127) - My first log
-  2015-02-16 10:45:19,044 [main] INFO  (GetResponseLog.java:127) - hello all
-  2015-02-16 10:45:19,044 [main] INFO  (GetResponseLog.java:127) - hello alllll
-  2015-02-16 10:45:19,088 [main] INFO  (Version.java:15) - Hibernate Annotations 3.4.0.GA
-  2015-02-16 10:45:19,098 [main] INFO  (Environment.java:543) - Hibernate 3.3.1.GA
-  2015-02-16 10:45:19,101 [main] INFO  (Environment.java:576) - hibernate.properties not found
-  2015-02-16 10:45:19,103 [main] INFO  (Environment.java:709) - Bytecode provider name : javassist
-  2015-02-16 10:45:19,106 [main] INFO  (Environment.java:627) - using JDK 1.4 java.sql.Timestamp handling
-  2015-02-16 10:45:19,161 [main] INFO  (Version.java:16) - Hibernate EntityManager 3.4.0.GA
-  2015-02-16 10:45:19,554 [main] INFO  (AnnotationBinder.java:419) - Binding entity from annotated class: com.amgen.getResponse.entity.userProfileManagement.User
-  2015-02-16 10:45:19,581 [main] INFO  (EntityBinder.java:422) - Bind entity com.amgen.getResponse.entity.userProfileManagement.User on table USER
-  2015-02-16 10:45:19,629 [main] INFO  (AnnotationBinder.java:419) - Binding entity from annotated class: com.amgen.getResponse.entity.campaign.Channel
-  2015-02-16 10:45:19,630 [main] INFO  (EntityBinder.java:422) - Bind entity com.amgen.getResponse.entity.campaign.Channel on table USER
-  2015-02-16 10:45:19,633 [main] INFO  (AnnotationConfiguration.java:369) - Hibernate Validator not found: ignoring
-  2015-02-16 10:45:19,657 [main] INFO  (HibernateSearchEventListenerRegister.java:53) - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
-  2015-02-16 10:45:19,695 [main] INFO  (DriverManagerConnectionProvider.java:64) - Using Hibernate built-in connection pool (not for production use!)
-  2015-02-16 10:45:19,696 [main] INFO  (DriverManagerConnectionProvider.java:65) - Hibernate connection pool size: 20
-  2015-02-16 10:45:19,696 [main] INFO  (DriverManagerConnectionProvider.java:68) - autocommit mode: true
-  2015-02-16 10:45:19,702 [main] INFO  (DriverManagerConnectionProvider.java:103) - using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/web
-  2015-02-16 10:45:19,703 [main] INFO  (DriverManagerConnectionProvider.java:109) - connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
-  2015-02-16 10:45:19,952 [main] INFO  (SettingsFactory.java:116) - RDBMS: MySQL, version: 5.6.22-log
-  2015-02-16 10:45:19,953 [main] INFO  (SettingsFactory.java:117) - JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.1.23 ( Revision: ${bzr.revision-id} )
-  2015-02-16 10:45:19,969 [main] INFO  (Dialect.java:175) - Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
-  2015-02-16 10:45:19,972 [main] INFO  (TransactionFactoryFactory.java:62) - Transaction strategy: org.hibernate.transaction.JDBCTransactionFactory
-  2015-02-16 10:45:19,974 [main] INFO  (TransactionManagerLookupFactory.java:80) - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
-  2015-02-16 10:45:19,974 [main] INFO  (SettingsFactory.java:170) - Automatic flush during beforeCompletion(): disabled
-  2015-02-16 10:45:19,974 [main] INFO  (SettingsFactory.java:174) - Automatic session close at end of transaction: disabled
-  2015-02-16 10:45:19,974 [main] INFO  (SettingsFactory.java:181) - JDBC batch size: 15
-  2015-02-16 10:45:19,975 [main] INFO  (SettingsFactory.java:184) - JDBC batch updates for versioned data: disabled
-  2015-02-16 10:45:19,975 [main] INFO  (SettingsFactory.java:189) - Scrollable result sets: enabled
-  2015-02-16 10:45:19,975 [main] INFO  (SettingsFactory.java:197) - JDBC3 getGeneratedKeys(): enabled
-  2015-02-16 10:45:19,976 [main] INFO  (SettingsFactory.java:205) - Connection release mode: auto
-  2015-02-16 10:45:19,976 [main] INFO  (SettingsFactory.java:229) - Maximum outer join fetch depth: 3
-  2015-02-16 10:45:19,976 [main] INFO  (SettingsFactory.java:232) - Default batch fetch size: 1
-  2015-02-16 10:45:19,976 [main] INFO  (SettingsFactory.java:236) - Generate SQL with comments: disabled
-  2015-02-16 10:45:19,977 [main] INFO  (SettingsFactory.java:240) - Order SQL updates by primary key: disabled
-  2015-02-16 10:45:19,977 [main] INFO  (SettingsFactory.java:244) - Order SQL inserts for batching: disabled
-  2015-02-16 10:45:19,977 [main] INFO  (SettingsFactory.java:420) - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
-  2015-02-16 10:45:19,978 [main] INFO  (ASTQueryTranslatorFactory.java:47) - Using ASTQueryTranslatorFactory
-  2015-02-16 10:45:19,979 [main] INFO  (SettingsFactory.java:252) - Query language substitutions: {}
-  2015-02-16 10:45:19,979 [main] INFO  (SettingsFactory.java:257) - JPA-QL strict compliance: enabled
-  2015-02-16 10:45:19,979 [main] INFO  (SettingsFactory.java:262) - Second-level cache: enabled
-  2015-02-16 10:45:19,979 [main] INFO  (SettingsFactory.java:266) - Query cache: disabled
-  2015-02-16 10:45:19,979 [main] INFO  (SettingsFactory.java:405) - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
-  2015-02-16 10:45:19,979 [main] INFO  (SettingsFactory.java:276) - Optimize cache for minimal puts: disabled
-  2015-02-16 10:45:19,979 [main] INFO  (SettingsFactory.java:285) - Structured second-level cache entries: disabled
-  2015-02-16 10:45:19,983 [main] INFO  (SettingsFactory.java:305) - Echoing all SQL to stdout
-  2015-02-16 10:45:19,984 [main] INFO  (SettingsFactory.java:314) - Statistics: disabled
-  2015-02-16 10:45:19,984 [main] INFO  (SettingsFactory.java:318) - Deleted entity synthetic identifier rollback: disabled
-  2015-02-16 10:45:19,985 [main] INFO  (SettingsFactory.java:333) - Default entity-mode: pojo
-  2015-02-16 10:45:19,985 [main] INFO  (SettingsFactory.java:337) - Named query checking : enabled
-  2015-02-16 10:45:20,014 [main] INFO  (SessionFactoryImpl.java:187) - building session factory
-  2015-02-16 10:45:20,114 [main] INFO  (SessionFactoryObjectFactory.java:105) - Not binding factory to JNDI, no JNDI name configured
-  2015-02-16 10:46:19,707 [main] INFO  (GetResponseLog.java:127) - My first log
-  2015-02-16 10:46:19,709 [main] INFO  (GetResponseLog.java:127) - hello all
-  2015-02-16 10:46:19,709 [main] INFO  (GetResponseLog.java:127) - hello alllll
-  2015-02-16 10:46:19,752 [main] INFO  (Version.java:15) - Hibernate Annotations 3.4.0.GA
-  2015-02-16 10:46:19,761 [main] INFO  (Environment.java:543) - Hibernate 3.3.1.GA
-  2015-02-16 10:46:19,763 [main] INFO  (Environment.java:576) - hibernate.properties not found
-  2015-02-16 10:46:19,765 [main] INFO  (Environment.java:709) - Bytecode provider name : javassist
-  2015-02-16 10:46:19,768 [main] INFO  (Environment.java:627) - using JDK 1.4 java.sql.Timestamp handling
-  2015-02-16 10:46:19,815 [main] INFO  (Version.java:16) - Hibernate EntityManager 3.4.0.GA
-  2015-02-16 10:46:20,169 [main] INFO  (AnnotationBinder.java:419) - Binding entity from annotated class: com.amgen.getResponse.entity.userProfileManagement.User
-  2015-02-16 10:46:20,193 [main] INFO  (EntityBinder.java:422) - Bind entity com.amgen.getResponse.entity.userProfileManagement.User on table USER
-  2015-02-16 10:46:20,240 [main] INFO  (AnnotationBinder.java:419) - Binding entity from annotated class: com.amgen.getResponse.entity.campaign.Channel
-  2015-02-16 10:46:20,240 [main] INFO  (EntityBinder.java:422) - Bind entity com.amgen.getResponse.entity.campaign.Channel on table USER
-  2015-02-16 10:46:20,243 [main] INFO  (AnnotationConfiguration.java:369) - Hibernate Validator not found: ignoring
-  2015-02-16 10:46:20,266 [main] INFO  (HibernateSearchEventListenerRegister.java:53) - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
-  2015-02-16 10:46:20,299 [main] INFO  (DriverManagerConnectionProvider.java:64) - Using Hibernate built-in connection pool (not for production use!)
-  2015-02-16 10:46:20,301 [main] INFO  (DriverManagerConnectionProvider.java:65) - Hibernate connection pool size: 20
-  2015-02-16 10:46:20,301 [main] INFO  (DriverManagerConnectionProvider.java:68) - autocommit mode: true
-  2015-02-16 10:46:20,308 [main] INFO  (DriverManagerConnectionProvider.java:103) - using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/web
-  2015-02-16 10:46:20,308 [main] INFO  (DriverManagerConnectionProvider.java:109) - connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
-  2015-02-16 10:46:20,598 [main] INFO  (SettingsFactory.java:116) - RDBMS: MySQL, version: 5.6.22-log
-  2015-02-16 10:46:20,598 [main] INFO  (SettingsFactory.java:117) - JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.1.23 ( Revision: ${bzr.revision-id} )
-  2015-02-16 10:46:20,609 [main] INFO  (Dialect.java:175) - Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
-  2015-02-16 10:46:20,611 [main] INFO  (TransactionFactoryFactory.java:62) - Transaction strategy: org.hibernate.transaction.JDBCTransactionFactory
-  2015-02-16 10:46:20,612 [main] INFO  (TransactionManagerLookupFactory.java:80) - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
-  2015-02-16 10:46:20,612 [main] INFO  (SettingsFactory.java:170) - Automatic flush during beforeCompletion(): disabled
-  2015-02-16 10:46:20,612 [main] INFO  (SettingsFactory.java:174) - Automatic session close at end of transaction: disabled
-  2015-02-16 10:46:20,613 [main] INFO  (SettingsFactory.java:181) - JDBC batch size: 15
-  2015-02-16 10:46:20,613 [main] INFO  (SettingsFactory.java:184) - JDBC batch updates for versioned data: disabled
-  2015-02-16 10:46:20,613 [main] INFO  (SettingsFactory.java:189) - Scrollable result sets: enabled
-  2015-02-16 10:46:20,613 [main] INFO  (SettingsFactory.java:197) - JDBC3 getGeneratedKeys(): enabled
-  2015-02-16 10:46:20,613 [main] INFO  (SettingsFactory.java:205) - Connection release mode: auto
-  2015-02-16 10:46:20,614 [main] INFO  (SettingsFactory.java:229) - Maximum outer join fetch depth: 3
-  2015-02-16 10:46:20,614 [main] INFO  (SettingsFactory.java:232) - Default batch fetch size: 1
-  2015-02-16 10:46:20,614 [main] INFO  (SettingsFactory.java:236) - Generate SQL with comments: disabled
-  2015-02-16 10:46:20,614 [main] INFO  (SettingsFactory.java:240) - Order SQL updates by primary key: disabled
-  2015-02-16 10:46:20,614 [main] INFO  (SettingsFactory.java:244) - Order SQL inserts for batching: disabled
-  2015-02-16 10:46:20,614 [main] INFO  (SettingsFactory.java:420) - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
-  2015-02-16 10:46:20,616 [main] INFO  (ASTQueryTranslatorFactory.java:47) - Using ASTQueryTranslatorFactory
-  2015-02-16 10:46:20,616 [main] INFO  (SettingsFactory.java:252) - Query language substitutions: {}
-  2015-02-16 10:46:20,616 [main] INFO  (SettingsFactory.java:257) - JPA-QL strict compliance: enabled
-  2015-02-16 10:46:20,616 [main] INFO  (SettingsFactory.java:262) - Second-level cache: enabled
-  2015-02-16 10:46:20,616 [main] INFO  (SettingsFactory.java:266) - Query cache: disabled
-  2015-02-16 10:46:20,616 [main] INFO  (SettingsFactory.java:405) - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
-  2015-02-16 10:46:20,617 [main] INFO  (SettingsFactory.java:276) - Optimize cache for minimal puts: disabled
-  2015-02-16 10:46:20,617 [main] INFO  (SettingsFactory.java:285) - Structured second-level cache entries: disabled
-  2015-02-16 10:46:20,619 [main] INFO  (SettingsFactory.java:305) - Echoing all SQL to stdout
-  2015-02-16 10:46:20,620 [main] INFO  (SettingsFactory.java:314) - Statistics: disabled
-  2015-02-16 10:46:20,620 [main] INFO  (SettingsFactory.java:318) - Deleted entity synthetic identifier rollback: disabled
-  2015-02-16 10:46:20,621 [main] INFO  (SettingsFactory.java:333) - Default entity-mode: pojo
-  2015-02-16 10:46:20,621 [main] INFO  (SettingsFactory.java:337) - Named query checking : enabled
-  2015-02-16 10:46:20,649 [main] INFO  (SessionFactoryImpl.java:187) - building session factory
-  2015-02-16 10:46:20,758 [main] INFO  (SessionFactoryObjectFactory.java:105) - Not binding factory to JNDI, no JNDI name configured
-  2015-02-16 10:46:49,903 [main] INFO  (GetResponseLog.java:127) - My first log
-  2015-02-16 10:46:49,904 [main] INFO  (GetResponseLog.java:127) - hello all
-  2015-02-16 10:46:49,905 [main] INFO  (GetResponseLog.java:127) - hello alllll
-  2015-02-16 10:46:49,950 [main] INFO  (Version.java:15) - Hibernate Annotations 3.4.0.GA
-  2015-02-16 10:46:49,960 [main] INFO  (Environment.java:543) - Hibernate 3.3.1.GA
-  2015-02-16 10:46:49,963 [main] INFO  (Environment.java:576) - hibernate.properties not found
-  2015-02-16 10:46:49,965 [main] INFO  (Environment.java:709) - Bytecode provider name : javassist
-  2015-02-16 10:46:49,968 [main] INFO  (Environment.java:627) - using JDK 1.4 java.sql.Timestamp handling
-  2015-02-16 10:46:50,032 [main] INFO  (Version.java:16) - Hibernate EntityManager 3.4.0.GA
-  2015-02-16 10:46:50,422 [main] INFO  (AnnotationBinder.java:419) - Binding entity from annotated class: com.amgen.getResponse.entity.userProfileManagement.User
-  2015-02-16 10:46:50,448 [main] INFO  (EntityBinder.java:422) - Bind entity com.amgen.getResponse.entity.userProfileManagement.User on table USER
-  2015-02-16 10:46:50,505 [main] INFO  (AnnotationBinder.java:419) - Binding entity from annotated class: com.amgen.getResponse.entity.campaign.Channel
-  2015-02-16 10:46:50,505 [main] INFO  (EntityBinder.java:422) - Bind entity com.amgen.getResponse.entity.campaign.Channel on table USER
-  2015-02-16 10:46:50,508 [main] INFO  (AnnotationConfiguration.java:369) - Hibernate Validator not found: ignoring
-  2015-02-16 10:46:50,532 [main] INFO  (HibernateSearchEventListenerRegister.java:53) - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
-  2015-02-16 10:46:50,569 [main] INFO  (DriverManagerConnectionProvider.java:64) - Using Hibernate built-in connection pool (not for production use!)
-  2015-02-16 10:46:50,571 [main] INFO  (DriverManagerConnectionProvider.java:65) - Hibernate connection pool size: 20
-  2015-02-16 10:46:50,571 [main] INFO  (DriverManagerConnectionProvider.java:68) - autocommit mode: true
-  2015-02-16 10:46:50,577 [main] INFO  (DriverManagerConnectionProvider.java:103) - using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/web
-  2015-02-16 10:46:50,578 [main] INFO  (DriverManagerConnectionProvider.java:109) - connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
-  2015-02-16 10:46:50,774 [main] INFO  (SettingsFactory.java:116) - RDBMS: MySQL, version: 5.6.22-log
-  2015-02-16 10:46:50,774 [main] INFO  (SettingsFactory.java:117) - JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.1.23 ( Revision: ${bzr.revision-id} )
-  2015-02-16 10:46:50,787 [main] INFO  (Dialect.java:175) - Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
-  2015-02-16 10:46:50,792 [main] INFO  (TransactionFactoryFactory.java:62) - Transaction strategy: org.hibernate.transaction.JDBCTransactionFactory
-  2015-02-16 10:46:50,793 [main] INFO  (TransactionManagerLookupFactory.java:80) - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
-  2015-02-16 10:46:50,794 [main] INFO  (SettingsFactory.java:170) - Automatic flush during beforeCompletion(): disabled
-  2015-02-16 10:46:50,794 [main] INFO  (SettingsFactory.java:174) - Automatic session close at end of transaction: disabled
-  2015-02-16 10:46:50,794 [main] INFO  (SettingsFactory.java:181) - JDBC batch size: 15
-  2015-02-16 10:46:50,794 [main] INFO  (SettingsFactory.java:184) - JDBC batch updates for versioned data: disabled
-  2015-02-16 10:46:50,795 [main] INFO  (SettingsFactory.java:189) - Scrollable result sets: enabled
-  2015-02-16 10:46:50,795 [main] INFO  (SettingsFactory.java:197) - JDBC3 getGeneratedKeys(): enabled
-  2015-02-16 10:46:50,795 [main] INFO  (SettingsFactory.java:205) - Connection release mode: auto
-  2015-02-16 10:46:50,796 [main] INFO  (SettingsFactory.java:229) - Maximum outer join fetch depth: 3
-  2015-02-16 10:46:50,796 [main] INFO  (SettingsFactory.java:232) - Default batch fetch size: 1
-  2015-02-16 10:46:50,796 [main] INFO  (SettingsFactory.java:236) - Generate SQL with comments: disabled
-  2015-02-16 10:46:50,796 [main] INFO  (SettingsFactory.java:240) - Order SQL updates by primary key: disabled
-  2015-02-16 10:46:50,796 [main] INFO  (SettingsFactory.java:244) - Order SQL inserts for batching: disabled
-  2015-02-16 10:46:50,796 [main] INFO  (SettingsFactory.java:420) - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
-  2015-02-16 10:46:50,798 [main] INFO  (ASTQueryTranslatorFactory.java:47) - Using ASTQueryTranslatorFactory
-  2015-02-16 10:46:50,798 [main] INFO  (SettingsFactory.java:252) - Query language substitutions: {}
-  2015-02-16 10:46:50,799 [main] INFO  (SettingsFactory.java:257) - JPA-QL strict compliance: enabled
-  2015-02-16 10:46:50,799 [main] INFO  (SettingsFactory.java:262) - Second-level cache: enabled
-  2015-02-16 10:46:50,799 [main] INFO  (SettingsFactory.java:266) - Query cache: disabled
-  2015-02-16 10:46:50,799 [main] INFO  (SettingsFactory.java:405) - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
-  2015-02-16 10:46:50,799 [main] INFO  (SettingsFactory.java:276) - Optimize cache for minimal puts: disabled
-  2015-02-16 10:46:50,800 [main] INFO  (SettingsFactory.java:285) - Structured second-level cache entries: disabled
-  2015-02-16 10:46:50,804 [main] INFO  (SettingsFactory.java:305) - Echoing all SQL to stdout
-  2015-02-16 10:46:50,805 [main] INFO  (SettingsFactory.java:314) - Statistics: disabled
-  2015-02-16 10:46:50,805 [main] INFO  (SettingsFactory.java:318) - Deleted entity synthetic identifier rollback: disabled
-  2015-02-16 10:46:50,806 [main] INFO  (SettingsFactory.java:333) - Default entity-mode: pojo
-  2015-02-16 10:46:50,806 [main] INFO  (SettingsFactory.java:337) - Named query checking : enabled
-  2015-02-16 10:46:50,833 [main] INFO  (SessionFactoryImpl.java:187) - building session factory
-  2015-02-16 10:46:50,939 [main] INFO  (SessionFactoryObjectFactory.java:105) - Not binding factory to JNDI, no JNDI name configured
+2015-02-18 11:29:03,800 [main] INFO  (GetResponseLog.java:127) - My first log
+  2015-02-18 11:29:03,804 [main] INFO  (GetResponseLog.java:127) - hello all
+  2015-02-18 11:29:03,804 [main] INFO  (GetResponseLog.java:127) - hello alllll
+  2015-02-18 11:29:03,854 [main] INFO  (Version.java:15) - Hibernate Annotations 3.4.0.GA
+  2015-02-18 11:29:03,864 [main] INFO  (Environment.java:543) - Hibernate 3.3.1.GA
+  2015-02-18 11:29:03,866 [main] INFO  (Environment.java:576) - hibernate.properties not found
+  2015-02-18 11:29:03,868 [main] INFO  (Environment.java:709) - Bytecode provider name : javassist
+  2015-02-18 11:29:03,875 [main] INFO  (Environment.java:627) - using JDK 1.4 java.sql.Timestamp handling
+  2015-02-18 11:29:03,931 [main] INFO  (Version.java:16) - Hibernate EntityManager 3.4.0.GA
+  2015-02-18 11:29:04,431 [main] INFO  (AnnotationBinder.java:419) - Binding entity from annotated class: com.amgen.getResponse.entity.userProfileManagement.User
+  2015-02-18 11:29:04,458 [main] INFO  (EntityBinder.java:422) - Bind entity com.amgen.getResponse.entity.userProfileManagement.User on table USER
+  2015-02-18 11:29:04,516 [main] INFO  (AnnotationBinder.java:419) - Binding entity from annotated class: com.amgen.getResponse.entity.campaign.Channel
+  2015-02-18 11:29:04,516 [main] INFO  (EntityBinder.java:422) - Bind entity com.amgen.getResponse.entity.campaign.Channel on table USER
+  2015-02-18 11:29:04,519 [main] INFO  (AnnotationConfiguration.java:369) - Hibernate Validator not found: ignoring
+  2015-02-18 11:29:04,537 [main] INFO  (HibernateSearchEventListenerRegister.java:53) - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+  2015-02-18 11:29:04,573 [main] INFO  (DriverManagerConnectionProvider.java:64) - Using Hibernate built-in connection pool (not for production use!)
+  2015-02-18 11:29:04,574 [main] INFO  (DriverManagerConnectionProvider.java:65) - Hibernate connection pool size: 20
+  2015-02-18 11:29:04,574 [main] INFO  (DriverManagerConnectionProvider.java:68) - autocommit mode: true
+  2015-02-18 11:29:04,664 [main] INFO  (DriverManagerConnectionProvider.java:103) - using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/web
+  2015-02-18 11:29:04,664 [main] INFO  (DriverManagerConnectionProvider.java:109) - connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+  2015-02-18 11:29:04,954 [main] INFO  (SettingsFactory.java:116) - RDBMS: MySQL, version: 5.6.22-log
+  2015-02-18 11:29:04,955 [main] INFO  (SettingsFactory.java:117) - JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.1.23 ( Revision: ${bzr.revision-id} )
+  2015-02-18 11:29:04,964 [main] INFO  (Dialect.java:175) - Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+  2015-02-18 11:29:04,966 [main] INFO  (TransactionFactoryFactory.java:62) - Transaction strategy: org.hibernate.transaction.JDBCTransactionFactory
+  2015-02-18 11:29:04,967 [main] INFO  (TransactionManagerLookupFactory.java:80) - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+  2015-02-18 11:29:04,967 [main] INFO  (SettingsFactory.java:170) - Automatic flush during beforeCompletion(): disabled
+  2015-02-18 11:29:04,967 [main] INFO  (SettingsFactory.java:174) - Automatic session close at end of transaction: disabled
+  2015-02-18 11:29:04,967 [main] INFO  (SettingsFactory.java:181) - JDBC batch size: 15
+  2015-02-18 11:29:04,968 [main] INFO  (SettingsFactory.java:184) - JDBC batch updates for versioned data: disabled
+  2015-02-18 11:29:04,968 [main] INFO  (SettingsFactory.java:189) - Scrollable result sets: enabled
+  2015-02-18 11:29:04,968 [main] INFO  (SettingsFactory.java:197) - JDBC3 getGeneratedKeys(): enabled
+  2015-02-18 11:29:04,968 [main] INFO  (SettingsFactory.java:205) - Connection release mode: auto
+  2015-02-18 11:29:04,969 [main] INFO  (SettingsFactory.java:229) - Maximum outer join fetch depth: 3
+  2015-02-18 11:29:04,969 [main] INFO  (SettingsFactory.java:232) - Default batch fetch size: 1
+  2015-02-18 11:29:04,969 [main] INFO  (SettingsFactory.java:236) - Generate SQL with comments: disabled
+  2015-02-18 11:29:04,969 [main] INFO  (SettingsFactory.java:240) - Order SQL updates by primary key: disabled
+  2015-02-18 11:29:04,969 [main] INFO  (SettingsFactory.java:244) - Order SQL inserts for batching: disabled
+  2015-02-18 11:29:04,969 [main] INFO  (SettingsFactory.java:420) - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+  2015-02-18 11:29:04,971 [main] INFO  (ASTQueryTranslatorFactory.java:47) - Using ASTQueryTranslatorFactory
+  2015-02-18 11:29:04,971 [main] INFO  (SettingsFactory.java:252) - Query language substitutions: {}
+  2015-02-18 11:29:04,971 [main] INFO  (SettingsFactory.java:257) - JPA-QL strict compliance: enabled
+  2015-02-18 11:29:04,971 [main] INFO  (SettingsFactory.java:262) - Second-level cache: enabled
+  2015-02-18 11:29:04,971 [main] INFO  (SettingsFactory.java:266) - Query cache: disabled
+  2015-02-18 11:29:04,972 [main] INFO  (SettingsFactory.java:405) - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+  2015-02-18 11:29:04,972 [main] INFO  (SettingsFactory.java:276) - Optimize cache for minimal puts: disabled
+  2015-02-18 11:29:04,972 [main] INFO  (SettingsFactory.java:285) - Structured second-level cache entries: disabled
+  2015-02-18 11:29:04,977 [main] INFO  (SettingsFactory.java:305) - Echoing all SQL to stdout
+  2015-02-18 11:29:04,978 [main] INFO  (SettingsFactory.java:314) - Statistics: disabled
+  2015-02-18 11:29:04,978 [main] INFO  (SettingsFactory.java:318) - Deleted entity synthetic identifier rollback: disabled
+  2015-02-18 11:29:04,979 [main] INFO  (SettingsFactory.java:333) - Default entity-mode: pojo
+  2015-02-18 11:29:04,979 [main] INFO  (SettingsFactory.java:337) - Named query checking : enabled
+  2015-02-18 11:29:05,074 [main] INFO  (SessionFactoryImpl.java:187) - building session factory
+  2015-02-18 11:29:05,184 [main] INFO  (SessionFactoryObjectFactory.java:105) - Not binding factory to JNDI, no JNDI name configured
   

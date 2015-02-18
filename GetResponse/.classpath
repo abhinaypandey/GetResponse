@@ -37,5 +37,7 @@
 	<classpathentry kind="lib" path="C:/Users/pandabhi/git/GetResponse/GetResponse/WebContent/WEB-INF/lib/xercesImpl.jar"/>
 	<classpathentry kind="lib" path="C:/Users/pandabhi/git/GetResponse/GetResponse/WebContent/WEB-INF/lib/xercesSamples.jar"/>
 	<classpathentry kind="lib" path="C:/Users/pandabhi/git/GetResponse/GetResponse/WebContent/WEB-INF/lib/xml-apis.jar"/>
+	<classpathentry kind="lib" path="C:/Users/pandabhi/git/GetResponse/GetResponse/WebContent/WEB-INF/lib/bcpg-jdk15on-150.jar"/>
+	<classpathentry kind="lib" path="C:/Users/pandabhi/git/GetResponse/GetResponse/WebContent/WEB-INF/lib/bcprov-jdk15on-150.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>

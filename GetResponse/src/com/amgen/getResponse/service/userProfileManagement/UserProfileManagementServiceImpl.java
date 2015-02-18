@@ -46,5 +46,4 @@ public class UserProfileManagementServiceImpl implements UserProfileManagementSe
 	}
 
 
-
 }

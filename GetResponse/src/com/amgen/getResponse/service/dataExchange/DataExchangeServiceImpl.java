@@ -2,8 +2,8 @@
  *
  * This comment is NOT a class level javadoc comment. 
  * 
- * @description: 
- * @author: singhda
+ * @description: This class fetches data and calls encryption service 
+ * @author: abhinay
  * @version: 
  *
  */
@@ -18,19 +18,23 @@ import java.io.FileOutputStream;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.security.InvalidKeyException;
+import java.security.NoSuchAlgorithmException;
+import java.security.NoSuchProviderException;
+import java.security.SignatureException;
 import java.util.List;
 import java.util.ResourceBundle;
-
 import javassist.bytecode.Descriptor.Iterator;
-
 import javax.management.Query;
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 
+import org.bouncycastle.openpgp.PGPException;
 import com.amgen.getResponse.entity.userProfileManagement.User;
 import com.amgen.getResponse.service.BusinessService;
 import com.amgen.getResponse.utility.EntityManagerService;
+import com.amgen.getResponse.service.dataExchange.EncryptionService;
 
 public class DataExchangeServiceImpl implements DataExchangeService {
 
@@ -52,9 +56,10 @@ public class DataExchangeServiceImpl implements DataExchangeService {
 		
 	}
 	
-	public static void main(String arg[]){
+	public static void main(String arg[]) throws Exception{
 		try {
-			File file=new File("/Temp/temp.txt");
+			String filePath="/Temp/temp.txt";
+			File file=new File(filePath);
 //			FileOutputStream f=new FileOutputStream(file);
 			PrintWriter pw=new PrintWriter(new BufferedWriter(new FileWriter(file,true)));
 			
@@ -75,11 +80,14 @@ public class DataExchangeServiceImpl implements DataExchangeService {
 				pw.print(user.getEmail());pw.print(delimiter);
 				pw.print(user.getPhone());
 				pw.println("");
-				
 				pw.flush();
 				
 			}
 			
+			EncryptionService test=new EncryptionService(filePath);
+			test.genKeyPair();
+			test.encrypt();
+			test.decrypt();
 			
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
