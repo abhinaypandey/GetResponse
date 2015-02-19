@@ -22,15 +22,21 @@ import java.security.InvalidKeyException;
 import java.security.NoSuchAlgorithmException;
 import java.security.NoSuchProviderException;
 import java.security.SignatureException;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.List;
 import java.util.ResourceBundle;
+
 import javassist.bytecode.Descriptor.Iterator;
+
 import javax.management.Query;
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 
 import org.bouncycastle.openpgp.PGPException;
+
 import com.amgen.getResponse.entity.userProfileManagement.User;
 import com.amgen.getResponse.service.BusinessService;
 import com.amgen.getResponse.utility.EntityManagerService;
@@ -58,8 +64,12 @@ public class DataExchangeServiceImpl implements DataExchangeService {
 	
 	public static void main(String arg[]) throws Exception{
 		try {
-			String filePath="/Temp/temp.txt";
+			
+			
+			long timestamp=new Date().getTime();
+			String filePath="./userData_"+timestamp+".txt";
 			File file=new File(filePath);
+			
 //			FileOutputStream f=new FileOutputStream(file);
 			PrintWriter pw=new PrintWriter(new BufferedWriter(new FileWriter(file,true)));
 			

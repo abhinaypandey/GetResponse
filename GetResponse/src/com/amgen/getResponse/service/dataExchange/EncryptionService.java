@@ -30,12 +30,12 @@ public class EncryptionService {
 
 	public EncryptionService(String fileToEncrypt) {
 		// TODO Auto-generated constructor stub
-		pubKeyFile = "/Temp/public.dat";
-		privKeyFile = "/Temp/private.dat";
+		pubKeyFile = "./public.dat";
+		privKeyFile = "./private.dat";
 
 		plainTextFile = fileToEncrypt;
-		cipherTextFile = "/Temp/cypher-text.dat";
-		decPlainTextFile = "/Temp/dec-plain-text.txt";
+		cipherTextFile = "./cypher-text.dat";
+		decPlainTextFile = "./dec-plain-text.txt";
 	}
 	
 
@@ -81,11 +81,6 @@ public class EncryptionService {
 		privKeyIn.close();
 	}
 	
-//	public static void main(String arg[]) throws Exception{
-//		TestBCOpenPGP t=new TestBCOpenPGP();
-//		t.genKeyPair();
-//		t.encrypt();
-//		t.decrypt();
-//	}
+
 
 }
