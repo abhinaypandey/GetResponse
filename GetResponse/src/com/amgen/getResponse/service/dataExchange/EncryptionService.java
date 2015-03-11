@@ -60,7 +60,6 @@ public class EncryptionService {
 
 	}
 
-	
 	public void encrypt() throws NoSuchProviderException, IOException, PGPException{
 		FileInputStream pubKeyIs = new FileInputStream(pubKeyFile);
 		FileOutputStream cipheredFileIs = new FileOutputStream(cipherTextFile);

@@ -17,8 +17,6 @@ public class EntityManagerService {
 	 */
 	private static final String PERSISTENCE_UNIT_NAME = "User";
 	private static EntityManagerFactory emFactory;
-
-
 	/**
 	 * method provides single entry access point for entityManager
 	 * @return
@@ -66,8 +64,6 @@ public class EntityManagerService {
 		} //catch (IOException e) {  
 			//e.printStackTrace();  
 		//}  
-
-
 
 		Map<String, String> prop = new HashMap<String, String>();
 		//ResourceBundle rb = ResourceBundle.getBundle("FILENAME");
