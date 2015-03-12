@@ -105,7 +105,7 @@ public class DataExchangeServiceImpl implements DataExchangeService {
 	private static void fetchData(File file,String filePath,String delimiter){
 		try {
 //			FileOutputStream f=new FileOutputStream(file);
-			PrintWriter pw=new PrintWriter(new BufferedWriter(new FileWriter(file)),true);
+			PrintWriter pw=new PrintWriter(new BufferedWriter(new FileWriter(file,true)),true);
 			EntityManager em=EntityManagerService.getEntityManager();
 			em.getTransaction().begin();
 			javax.persistence.Query q= em.createQuery("Select o from User o");
@@ -164,7 +164,7 @@ public class DataExchangeServiceImpl implements DataExchangeService {
 		}
 	}
 	
-	public static void main(String arg[]) throws Exception{
+	public void DataTransfer() throws Exception{
 			
 			DataExchangeServiceImpl dimpl=new DataExchangeServiceImpl();
 			ResourceBundle rc=ResourceBundle.getBundle("properties.delimiter");
@@ -214,7 +214,7 @@ public class DataExchangeServiceImpl implements DataExchangeService {
 				InputStreamReader ir=new InputStreamReader(new FileInputStream(headerFile));
 				BufferedReader bf=new BufferedReader(ir);
 				File file=new File(filePath);
-				PrintWriter pw=new PrintWriter(new BufferedWriter(new FileWriter(file,true)));
+				PrintWriter pw=new PrintWriter(new BufferedWriter(new FileWriter(file)),true);
 				String header=bf.readLine();
 				pw.println(header);
 				pw.close();
